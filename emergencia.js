@@ -1,9 +1,9 @@
-import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm&#39;;
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm;
 
 /* =========================================================
    INICIALIZAÇÃO DO SUPABASE CLIENT
    ========================================================= */
-const SUPABASE_URL = 'https://https://rrqlynqevmrszllovebw.supabase.co';;
+const SUPABASE_URL = 'https://https://rrqlynqevmrszllovebw.supabase.co';
 
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJycWx5bnFldm1yc3psbG92ZWJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3MzkxNDEsImV4cCI6MjEwODMxNTE0MX0.B9uxzozh1ePm3mQfMCiPwp4wk281SWYOjRZkmF7K7lk
 '; // Insira a sua chave anon public
