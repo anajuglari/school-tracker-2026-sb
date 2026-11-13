@@ -53,7 +53,7 @@
     <div class="print-header">
         <h1>SISTEMA DE MONITORAMENTO ESCOLAR</h1>
         <h3>RELATÓRIO OFICIAL DE PROTOCOLO DE ABANDONO</h3>
-        <p>Emissão: <span id="data-relatorio"></span></p>
+        <p>Emissão: <span id="data-relatorio"></span></p>&gt;
     </div>
     <div id="conteudo-impressao" class="report-summary"></div>
 
@@ -102,9 +102,9 @@
     /* =========================================================
        INICIALIZAÇÃO DO SUPABASE
        ========================================================= */
-    const SUPABASE_URL = 'https://rrqlynqevmrszllovebw.supabase.co';
-    const SUPABASE_ANON_KEY = '
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJycWx5bnFldm1yc3psbG92ZWJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3MzkxNDEsImV4cCI6MjEwODMxNTE0MX0.B9uxzozh1ePm3mQfMCiPwp4wk281SWYOjRZkmF7K7lk';
+        const SUPABASE_URL = 'https://rrqlynqevmrszllovebw.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJycWx5bnFldm1yc3psbG92ZWJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI3MzkxNDEsImV4cCI6MjEwODMxNTE0MX0.B9uxzozh1ePm3mQfMCiPwp4wk281SWYOjRZkmF7K7lk
+';
 
     const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
         auth: { persistSession: false }
